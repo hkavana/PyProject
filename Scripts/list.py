@@ -4,7 +4,7 @@ str_lis = []
 for i in lis:
     if isinstance(i, int) or isinstance(i, float):
         num_lis.append(i)
-    elif isinstance(i, string):
+    elif isinstance(i, str):
         str_lis.append(i)
     else:
         pass
