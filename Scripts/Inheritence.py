@@ -12,14 +12,14 @@ class Dog(Animals):
         return self.noise
 
 an = Animals()
-an.color
-an.size
-an.noise
-an.makes_noise()
+print(an.color)
+print(an.size)
+print(an.noise)
+print(an.makes_noise())
 
 dog = Dog()
-dog.name
-dog.color
-dog.noise
-dog.makes_noise()
-:
+print(dog.name)
+print(dog.color)
+print(dog.noise)
+print(dog.makes_noise())
+
